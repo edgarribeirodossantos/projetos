@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h3>Casdastro da liga dos Astronautas</h3>
+    <form action>
+
+        <div>
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="off">
+            <label for="pwd">-Nova senha:</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <br>
+
+        <div>
+            <label for="birthday">Data de Nacimento:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="myfile">-Selecione sua foto:</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+        <br>
+
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russa</option>
+                <option value="american">Americana</option>
+                <option value="brasilian">Brasileira</option>
+            </select>-
+
+            Genero:
+            <label for="m"> Masc</label>
+            <input type="radio" id="m" name="gender" value="masculino">
+            <label for="f"> Fem</label>
+            <input type="radio" id="f" name="gender" value="feminino">
+        </div>
+        <br>
+
+        <div>
+            Suas principais qualidades:
+            <br>
+            <input type="checkbox" id="q1" name="q1" value="Int">
+            <label for="q1">Inteligência |</label>
+            <input type="checkbox" id="q2" name="q2" value="Resi">
+            <label for="q2">Resiliência |</label>
+            <input type="checkbox" id="q3" name="q3" value="Fis">
+            <label for="q3">Preparo Físico|</label>
+            <input type="checkbox" id="q4" name="q4" value="Edu">
+            <label for="q4">Educação</label>
+        </div>
+        <br>
+
+        <div>
+            <textarea name="description" id="description"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+
+</body>
+
+</html>
