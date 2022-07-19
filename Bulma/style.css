@@ -1,0 +1,13 @@
+.card {
+    margin-bottom: 20px;
+}
+
+.navbar{
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(230deg, rgba(0, 0, 0, 1) 12%, rgba(211, 211, 211, 1) 81%);
+}
